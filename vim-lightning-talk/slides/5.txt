@@ -1,0 +1,20 @@
+
+
+    Basic editing (2/2)
+
+        %  Toggle between matching parenthesis, curly, etc.
+
+        t<char>  Jump forwards to the next instance of <char>
+        T<char>  Jump backwards to the most recent instance of <char>
+
+        Some "verbal" commands:
+        
+        y$  "Yank"/copy the text from cursor until the end of line
+        d$  Delete text from cursor until the end of line
+
+        Misc:
+
+        /<term>  Search for "term"
+        n/N      Go to next or previous search term match
+
+

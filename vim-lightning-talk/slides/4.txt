@@ -1,0 +1,20 @@
+
+
+    Basic editing (1/2)
+
+        "Modal Editing" - normal (command), insert, visual, ...
+
+        <esc>  Revert back to normal mode
+        i      Enter insert mode from normal mode
+
+        Normal mode ("movement"/location commands):
+
+        j/k  Move up and down line-by-line - it's like WASD ;)
+        h/l  Move right and left character-by-character
+        w/b  Move forward/backward one word
+        $    Jump to end of line
+        ^    Jump to beginning of line
+        :<N> Jump to line number N ("colon command")
+
+        Insert mode - regular keyboard input, <c>/<tab> etc. may be bound
+

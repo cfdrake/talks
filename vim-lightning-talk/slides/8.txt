@@ -1,0 +1,12 @@
+
+
+    Questions?
+
+    Oh yeah... normal mode commands ZZ or :q to quit...
+    And :wq to save + quit.
+    
+    
+    
+    (Slides: github.com/cfdrake/vim-lightning-talk)
+
+

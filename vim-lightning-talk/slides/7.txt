@@ -1,0 +1,12 @@
+
+
+    Links/Resources
+
+    Hoping this intro is enough to "bootstrap" into learning.
+
+    - :help command in vim or run `vimtutor`
+    - Good set of configuration defaults: github.com/tpope/vim-sensible
+    - A good, modern Vim rewrite: neovim.io
+    - Lots of great tips: vim.wikia.com/wiki/Best_Vim_Tips
+
+

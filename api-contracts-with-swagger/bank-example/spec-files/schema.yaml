@@ -1,0 +1,65 @@
+swagger: '2.0'
+
+info:
+  version: '1.0.0'
+  title: My First Bank API
+
+consumes:
+  - application/json
+produces:
+  - application/json
+
+paths:
+  /accounts/{accountID}:
+    get:
+      summary: Fetch details for the given account
+      parameters:
+        - name: accountID
+          in: path
+          description: The ID of the account to fetch
+          required: true
+          type: integer
+          format: integer
+      responses:
+        '200':
+          description: Details of an account
+          schema:
+            $ref: '#/definitions/Account'
+        '404':
+          description: The account could not be found
+          schema:
+            $ref: '#/definitions/ObjectNotFound'
+
+definitions:
+  Account:
+    required:
+      - id
+      - title
+      - amount
+    properties:
+      id:
+        description: Primary key of the account
+        type: integer
+        x-chance-type: integer
+        x-type-options:
+          min: 0
+          max: 9999
+      title:
+        description: Account name
+        type: string
+        x-chance-type: word
+      amount:
+        description: Amount in the account, in dollars
+        type: natural
+      owner:
+        description: Account owner's name
+        type: string
+        x-chance-type: name
+  ObjectNotFound:
+    required:
+      - error
+    properties:
+      error:
+        description: The message that should be displayed in-app
+        type: string
+        x-chance-type: sentence

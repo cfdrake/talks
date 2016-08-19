@@ -1,0 +1,19 @@
+{
+  "name": "swagger-editor",
+  "description": "Swagger Editor Web App",
+  "version": "2.9.8",
+  "repository": "https://github.com/swagger-api/swagger-editor.git",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt-shell": "^1.1.2"
+  },
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Swagger"
+  ],
+  "author": "Mohsen Azimi",
+  "license": "MIT"
+}

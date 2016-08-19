@@ -1,0 +1,18 @@
+
+
+    Quick history
+
+        Lineage:
+
+        - ed (1969): "the most user-hostile editor ever created"
+        - vi (1976): graphical shell ontop of ex, an ed clone
+        - vim (1991): open source clone of vi, ported to many systems
+
+        Notes for the Modern Era:
+
+        - 2015 CE: vi or vim in most Unixes usually puts you into Vim
+        - Vim now comes with many improvements over vi:
+            - Merge tools, plugins, GUIs, code folding, sessions, ...
+        - Projects like NeoVim to rewrite/remove crust from the codebase
+
+

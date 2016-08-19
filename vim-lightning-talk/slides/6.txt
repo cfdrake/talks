@@ -1,0 +1,20 @@
+
+
+    Philosophy
+
+        - Complex commands seem arbitrary... ciw, d$, dto, dt}, d%
+        - Actually: easily composed of <verb><location> pairs
+
+          Learn simple actions and locations - then compose them!
+
+          - d$: delete to end of line
+          - y$: copy to end of line
+
+          - c$: change to end of line (delete and start in insert mode)
+          - ciw: change inside of word
+
+          - dto: delete up until the next "o"
+          - dTo: delete backwards until the most recent "o"
+          - dn: delete up until the next search term match
+
+

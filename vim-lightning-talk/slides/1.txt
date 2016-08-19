@@ -1,0 +1,14 @@
+
+
+    quitQ!ZZwq!: A Guide to Successfully Quitting Vim
+
+      (Or: A short, quick intro to Vim*)
+
+    by: Colin Drake / @colinfdrake
+
+
+
+    * Most importantly covering: how to get less bad over time.
+    ** Note: Presentation best viewed in an 80x24 terminal window.
+
+

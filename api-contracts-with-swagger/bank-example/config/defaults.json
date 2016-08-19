@@ -1,0 +1,28 @@
+{
+  "codegen": {
+    "servers": "http://generator.swagger.io/api/gen/servers",
+    "clients": "http://generator.swagger.io/api/gen/clients",
+    "server": "http://generator.swagger.io/api/gen/servers/{language}",
+    "client": "http://generator.swagger.io/api/gen/clients/{language}"
+  },
+  "disableCodeGen": false,
+  "examplesFolder": "spec-files/",
+  "editorOptions": {
+    "theme": "ace/theme/atom_dark"
+  },
+  "exampleFiles": [
+    "schema.yaml"
+  ],
+  "autocompleteExtension": {},
+  "useBackendForStorage": true,
+  "backendThrottle": 200,
+  "keyPressDebounceTime": 200,
+  "backendEndpoint": "/editor/spec",
+  "useYamlBackend": true,
+  "disableFileMenu": false,
+  "headerBranding": false,
+  "disableNewUserIntro": true,
+  "enableTryIt": false,
+  "brandingCssClass": "",
+  "importProxyUrl": "https://cors-it.herokuapp.com/?url="
+}
