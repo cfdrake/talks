@@ -1,5 +1,9 @@
 # Talks and Presentations
 
+## Devops
+
+- [An Introduction to Ansible](https://github.com/TupleAustin/talks/tree/master/learn-ansible/)
+
 ## Functional Programming
 
 - [A Gentle Functional Workshop (with Scheme)](https://github.com/cfdrake/talks/tree/master/functional-workshop)
@@ -11,4 +15,5 @@
 
 ## UNIX
 
+- [The Ultimate Dotfile Setup](https://github.com/TupleAustin/talks/tree/master/dotfiles/)
 - [Vim Lightning Talk](https://github.com/cfdrake/talks/tree/master/vim-lightning-talk)
