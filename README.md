@@ -15,5 +15,6 @@
 
 ## UNIX
 
+- [jq: The JSON Swiss Army Knife](https://github.com/TupleAustin/talks/tree/master/jq/)
 - [The Ultimate Dotfile Setup](https://github.com/TupleAustin/talks/tree/master/dotfiles/)
 - [Vim Lightning Talk](https://github.com/cfdrake/talks/tree/master/vim-lightning-talk)
