@@ -1,0 +1,10 @@
+---
+
+- hosts: remote
+  tasks:
+    - name: Installing Nginx
+      apt: name=nginx state=latest
+    - name: Deploying Site
+      copy: src=index.html dest=/var/www/html/index.html
+    - name: Starting Nginx
+      service: name=nginx state=started

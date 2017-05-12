@@ -1,0 +1,6 @@
+[demo]
+ansible-demo-box
+
+[demo-all]
+localhost
+ansible-demo-box
